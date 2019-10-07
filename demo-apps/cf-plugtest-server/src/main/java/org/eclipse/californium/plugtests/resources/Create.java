@@ -34,7 +34,7 @@ public class Create extends CoapResource {
 	private int dataCf = UNDEFINED;
 
 	public Create() {
-		super("create1");
+		super("MEINS");
 		getAttributes().setTitle("Resource which does not exist yet (to perform atomic PUT)");
 		setVisible(false);
 	}
